@@ -52,6 +52,7 @@
   opacity: 0;
 }
 .search-form {
+  font-family: monospace;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -84,6 +85,11 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.find {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+}
 .info {
   width: 100%;
   padding: 5px;
@@ -93,6 +99,7 @@
   margin: -5px;
 }
 .info-item {
+  font-size: 16px;
   font-weight: 400;
   color: #000000;
   display: flex;
