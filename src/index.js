@@ -7,7 +7,7 @@ import galleryCardsTpl from './templates/gallery-card.hbs';
 import { addBackToTop } from 'vanilla-back-to-top';
 import { Loading } from 'notiflix/build/notiflix-loading-aio';
 const API_KEY = '24827423-94023a6c518e3be22ea88dc29';
-const BASE_URL = 'https://pixabay.com/api';
+const BASE_URL = 'https://pixabay.com/api/';
 const imagesPerPage = 40;
 
 const refs = {
